@@ -22,7 +22,7 @@ catalog: $(OPERATOR_CATALOG_CONTRIBUTION)
 # comment out / customize the one that makes the most sense, or use them as examples in defining your own
 #
 # --- BASIC VENEER ---
-#catalog: basic framework
+catalog: basic framework
 #
 # --- SEMVER VENEER ---
 #catalog: semver framework
