@@ -28,6 +28,7 @@ jobs:
       uses: grokspawn/action-pull-request-another-repo@v1.0.0
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         source_folder: './catalog/*'
         destination_repo: 'scoheb/cool-catalog'
