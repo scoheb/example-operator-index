@@ -1,9 +1,9 @@
 
 # approval == this is a good idea /approve
 approvers:
-  - grokspawn
+  - scoheb
 
 # review == this code is good /lgtm
 reviewers:
-  - grokspawn
+  - scoheb
 
