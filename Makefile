@@ -5,16 +5,6 @@ OPERATOR_CATALOG_CONTRIBUTION = $(OPERATOR_CATALOG_DIR)/catalog.yaml
 YQ = bin/yq
 
 
-# the catalog contribution target will enforce that the user selected an FBC build approach and generated the catalog
-$(OPERATOR_CATALOG_CONTRIBUTION):
-	@echo "$(OPERATOR_CATALOG_CONTRIBUTION) does not exist"; \
-         echo ">>> you must first customize and execute 'make catalog' to generate the catalog contribution"; \
-         false;
-
-.PHONY: catalog
-# replace this stub with one customized to serve your needs ... some examples below
-catalog: $(OPERATOR_CATALOG_CONTRIBUTION)
-
 # in order to have a deliverable target, the CI workflow executes the target "catalog" and wraps the resulting catalog contribution in
 # a PR to the modeled catalog repo
 #
