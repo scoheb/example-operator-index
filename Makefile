@@ -4,7 +4,6 @@ OPERATOR_CATALOG_DIR = catalog/$(OPERATOR_NAME)
 OPERATOR_CATALOG_CONTRIBUTION = $(OPERATOR_CATALOG_DIR)/catalog.yaml
 YQ = bin/yq
 
-
 # in order to have a deliverable target, the CI workflow executes the target "catalog" and wraps the resulting catalog contribution in
 # a PR to the modeled catalog repo
 #
