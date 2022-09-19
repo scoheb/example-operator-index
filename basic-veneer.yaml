@@ -10,10 +10,15 @@ entries:
 - name: testoperator.v0.1.0
 - name: testoperator.v0.2.0
   replaces: testoperator.v0.1.0
+- name: testoperator.v0.3.0
+  replaces: testoperator.v0.2.0
 ---
 schema: olm.bundle
 image: quay.io/ankitathomas/olm:testoperator.v0.1.0
 ---
 schema: olm.bundle
 image: quay.io/ankitathomas/olm:testoperator.v0.2.0
+---
+schema: olm.bundle
+image: quay.io/ankitathomas/olm:testoperator.v0.3.0
 
