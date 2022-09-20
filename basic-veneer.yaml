@@ -2,6 +2,7 @@
 schema: olm.package
 name: testoperator
 defaultChannel: stable
+# test
 ---
 schema: olm.channel
 package: testoperator
